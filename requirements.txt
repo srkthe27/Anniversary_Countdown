@@ -1,0 +1,4 @@
+django
+datetime
+python-dateutil
+django-cors-headers

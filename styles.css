@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Georgia', serif;  /* Elegant serif font */
+    background-color: #fdf1f0;  /* Soft pinkish background */
+    background-image: url(https://i.pinimg.com/474x/71/6e/cf/716ecfce0989d6cdbf41ec7c1b91c551.jpg);
+    background-size: cover;
+    background-position: left;
+    background-attachment: fixed;
+    color: #4e4e4e;  /* Soft dark color for text */
+    padding: 20px;
+}
+
+.container {
+    width: 50%;
+    margin: 0 auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;  /* Rounded corners for a soft touch */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);  /* Softer shadow for an elegant look */
+    border: 1px solid #e6a9b3;  /* Subtle border with a soft pinkish hue */
+}
+
+h1 {
+    text-align: center;
+    color: #d87a9c;  /* Soft romantic pink */
+    margin-bottom: 20px;
+    font-size: 28px;
+    font-family: 'Georgia', serif;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+label {
+    font-size: 16px;
+    margin-bottom: 8px;
+    display: block;
+    font-family: 'Georgia', serif;
+    color: #d87a9c;  /* Romantic pink for the labels */
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #e6a9b3;
+    border-radius: 8px;  /* Rounded corners for inputs */
+    margin-top: 8px;
+    background-color: #f9e5e5;  /* Light pink background for the input fields */
+    color: #4e4e4e;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #e6a9b3;  /* Soft pink for button */
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: 'Georgia', serif;
+}
+
+button:hover {
+    background-color: #d87a9c;  /* Slightly darker pink on hover */
+}
+
+#error-message {
+    color: #d87a9c;  /* Romantic pink color for error messages */
+    font-size: 14px;
+    text-align: center;
+}
+
+.result {
+    margin-top: 30px;
+    display: none;
+    background-color: #ffe6e6;  /* Soft background for the result section */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.result h2 {
+    text-align: center;
+    color: #d87a9c;
+    font-family: 'Georgia', serif;
+}
+
+.result p {
+    font-size: 16px;
+    margin-bottom: 12px;
+    color: #4e4e4e;
+}
+
+.result p span {
+    font-weight: bold;
+    color: #d87a9c;
+}

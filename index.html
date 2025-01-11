@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anniversary Countdown</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Anniversary Countdown</h1>
+
+        <form id="anniversary-form">
+            <div class="input-group">
+                <label for="user-anniversary">User Anniversary (MM-DD-YYYY):</label>
+                <input type="text" id="user-anniversary" placeholder="e.g. 06-10-2024" required>
+            </div>
+
+            <div class="input-group">
+                <label for="user-proposed-anniversary">Proposed Anniversary (MM-DD-YYYY):</label>
+                <input type="text" id="user-proposed-anniversary" placeholder="e.g. 03-27-2024" required>
+            </div>
+
+            <button type="submit">Calculate</button>
+        </form>
+
+        <div id="error-message" class="error-message"></div>
+
+        <div id="result" class="result">
+            <h2>Results</h2>
+            <p id="next-anniversary-date"></p>
+            <p id="countdown-anniversary"></p>
+            <p id="next-proposed-anniversary-date"></p>
+            <p id="countdown-proposed-anniversary"></p>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
